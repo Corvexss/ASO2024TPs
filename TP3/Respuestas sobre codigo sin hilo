@@ -1,0 +1,3 @@
+Respecto al tiempo de ejecución tanto el la tarea 2 como la 3 son predecibles y no tienen una variación grande mas que de microsegundos, en cambio la tarea 1 al estar ligada a la carga del cpu puede tardar segundos variables, en mi caso tardó 3.2 segundos en la primera prueba y 3.4 segundos en la segunda prueba donde estaba usando mas procentaje del cpu
+Un proceso que puedo considerar de maxima velocidad posible es la renderización de imagenes o de videos, las cuales tardan mas o menos dependiendo de las especificaciónes de la maquina/componentes
+Un proceso que no depende de la velocidad de procesamiento es por ejemplo una descarga desde internet, ya que mas que depender de la velocidad de procesamiento depende de la conexión y velocidad que se tenga a internet

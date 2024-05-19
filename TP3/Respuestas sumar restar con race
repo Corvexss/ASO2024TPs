@@ -1,0 +1,9 @@
+El tiempo de ejecución es el mismo 
+Al ponerle race el valor es muy variable como se ve en las capturas, hubo momentos en los que da 0 2 veces seguidas y otros en los que da 4000 o -4000
+Esto sucede porque al tener race condicition ambos hilos manipulan la variable de acumular y hace que entre hilos se lean entre ellos con su propia operación
+Se puede usar un lock para que un solo hilo tenga acceso a la vez a la misma variable
+
+
+Respuestas sin race
+El valor final varia pero no tanto, siempre en un rango de 200 a 300 sumando o restando
+el tiempo de ejecución es mas lento ya que se usa un hilo por variable 

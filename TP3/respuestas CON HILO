@@ -1,0 +1,3 @@
+el tiempo de ejecución es el mismo tanto con como sin hilos, en cuanto al programa con hilos las veces que lo hice debuggear tuvo los mismos tiempos con minimos cambios en tu resultado
+No, no lo completa en el orden establecido ya que en todos los intentos la tarea 1 fue la 2da mas rapida haciendo que la tarea 2 siempre se termine primero y la 3era termina ultima y es la unica que cumple el orden
+Un escenario donde el multi hilado mejora el tiempo de respuesta es en el procesamiento de solicitudes de un servidor web, ya que reciben y procesan las solicitudes, al usar el multi hilado cada solicitud se puede manejar con un hilo distiinto y aliviar la carga en un solo hilo
